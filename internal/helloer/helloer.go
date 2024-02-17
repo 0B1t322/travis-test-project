@@ -18,3 +18,10 @@ func New(to string) *Helloer {
 		To: to,
 	}
 }
+
+func (h Helloer) Some_SmellCode() string {
+	for false {
+		fmt.Println("false")
+	}
+	return ""
+}
